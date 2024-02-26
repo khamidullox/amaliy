@@ -36,13 +36,7 @@
 //   i++;
 // }
 
-// let word = "samarqand";
-// i = 0;
-// arr = word.split();
-
-// while (i < word.length) {
-//   let result = arr[i];
-
-//   i++;
-//   console.log(result);
-// }
+let word = "Ozbegiston".toLowerCase();
+let arr = word.split("").reverse();
+let newName = arr.concat().join("");
+console.log(newName);
