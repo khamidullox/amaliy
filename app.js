@@ -3,13 +3,13 @@
 // let result = `Hurmatli ${ism} . Siz ${2024 - yosh} yilda tugilgansiz . Siz tugilganizdan ${yosh * 12 } oy , ${Math.trunc((yosh * 365)/7)} hafta , ${yosh * 365} kun , ${yosh * 365 *24} soat , ${yosh * 365 *24 *60} daqiqa otgan `
 // alert(result)
 
-// let ismlar = prompt("Isim kiriting");
-// let a = ["Hamidullo", "Begzod", "Timur"];
-// if (a.includes(ismlar)) {
-//   alert("Siz togri isim toptingiz");
-// }
-// alert("Siz notogri isim kiritingiz"
-
+let ismlar = prompt("Isim kiriting");
+let a = ["Hamidullo", "Begzod", "Timur"];
+if (a.includes(ismlar)) {
+  alert("Siz togri isim toptingiz");
+}else{
+alert("Siz notogri isim kiritingiz")
+}
 // let ismlar = ["Hamidullo", "Begzod", "Timur"];
 // let result;
 // let i = 0;
@@ -36,7 +36,7 @@
 //   i++;
 // }
 
-let word = "Ozbegiston".toLowerCase();
+let word = prompt("Nom kiriting").toLowerCase();
 let arr = word.split("").reverse();
 let newName = arr.concat().join("");
-console.log(newName);
+alert(newName)
